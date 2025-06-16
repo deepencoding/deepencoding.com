@@ -1,38 +1,113 @@
-# sv
+# 🌐 deepencoding.com
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+**Stack**: TypeScript • JavaScript • SvelteKit
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Project Overview
+
+A fast, scalable SvelteKit-based portfolio and blog, following modern best practices for code safety, SEO, and content management.
+
+---
+
+## 🎯 Key Features
+
+- **Type-safe SvelteKit architecture** (TS + JS) ensures a maintainable and bug-resistant platform.
+- **Structured content system with SEO optimizations** for readability and increased search visibility.
+- **Custom tooling & automation** streamline updates— dramatically reducing maintenance time and enforcing consistency.
+
+---
+
+## 🖼️ Demo & Inspiration
+
+Inspired by the clean architecture and attention to detail found in [**ryoppippi.com**](https://ryoppippi.com), blending performance, aesthetics, and developer experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: SvelteKit, TypeScript, JavaScript
+- **Styling**: Unocss / Tailwind (as desired)
+- **Content**: Markdown / MDsveX pages
+- **Build Tools**: Vite, SvelteKit adapters
+- **SEO & Performance**: Server-side rendering, meta tags, sitemap, and optimized images
+
+---
+
+## ⚙️ Getting Started (Local)
+
+### 1. Clone Repository
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/deepencoding/deepencoding.com.git
+cd deepencoding.com
 ```
 
-## Developing
+### 2. Install Dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm install
+# or pnpm install / yarn
+```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# → http://localhost:5173 (or printed output port)
 ```
 
-## Building
-
-To create a production version of your app:
+### 4. Build for Production
 
 ```bash
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🧩 Content & SEO System
+
+- Blog and portfolio sections in structured Markdown/MDsveX
+- Metadata in frontmatter for title, date, tags, description, and images
+- Auto-generated sitemap and optimized meta tags ensure high search visibility
+
+---
+
+## 🔧 Custom Tooling
+
+- Automated script for generating route/type definitions
+- CI/CD scripts to auto-check content files and run SEO audits
+- Hooked into `package.json` for consistency checks (linting, formatting)
+
+---
+
+## 📈 Impact
+
+- **Maintainability**: Type-safe routing and structured content reduce bugs and improve developer experience
+- **SEO & Visibility**: Clean metadata and sitemap generation improve discoverability
+- **Efficiency**: Custom tooling cuts down manual work and ensures consistent updates
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a branch (`feature/…`)
+3. Make changes with types/tests
+4. Open a PR against `main`
+5. Await review & merge
+
+Please follow the existing code style and commit guidelines.
+
+---
+
+## 🧾 License
+
+Open-source under the **MIT License**. See [LICENSE](./LICENSE) for details.
+
+---
+
+## 🙋‍♂️ Author
+
+**@deepencoding** – passionate about safe, performant web experiences. Inspired by minimal‑style SvelteKit sites like ryoppippi.com. Feedback and contributions are welcome!
